@@ -1,3 +1,3 @@
-st.title("고속도로 사고 보고서 자동 생성기")
-
-    st.write(response)
+import streamlit as st
+st.title('나의 첫 streamlit 프로젝트')
+st.write('hello streamlit!')
