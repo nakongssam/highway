@@ -6,7 +6,7 @@ from PIL import Image
 from openai import OpenAI
 
 st.set_page_config(page_title="시설물 점검 보고서 자동 생성", page_icon="🧱", layout="centered")
-st.title("🧱 이미지 기반 시설물 점검 보고서 생성기 (MVP)")
+st.title("🧱 이미지 기반 시설물 점검 보고서 생성기")
 st.caption("사진 1장 업로드 → 손상 유형 판정 + 위험도 평가 + 개선 권고안 자동 작성 (ChatGPT API)")
 
 # -------------------------
